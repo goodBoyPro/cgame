@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+</head>
+<style>
+   
+    body{
+        width: 500px;
+        margin: auto;
+        color: brown;
+    }
+    #box{
+        background-color: antiquewhite;
+        background-image: url(src/bg.webp);
+        background-repeat:space;
+        width: 500px;
+        height: 300px;
+        border-radius: 30px;
+        margin: auto; 
+        justify-content: center;
+        display: flex;
+
+    }
+    .block{
+        background-color: rgb(0, 201, 140);
+        border-style: groove;
+        border-width: 3px;
+        font-size: 80px;
+        color: black;
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        align-items: center; 
+        box-shadow: 18px 18px 10px rgb(0, 70, 49);  
+        transition: transform 0.2s ease,background-color 0.3s ease;   
+    }
+    .block:hover{
+        transform: scale(1.2) rotate(15deg);
+        background-color: brown;
+        margin: auto;
+    }
+    .btn{
+        height: 60px;
+        width: 120px;
+        font-size: 30px;
+        color: rgb(0, 67, 105);
+        margin: auto;
+        background-color: rgb(0, 225, 255);
+        border-radius: 15px;
+    }
+</style>
+<body>
+    <h1>游戏</h1>
+    <h2 id="topic">题目：</h2>
+    <div id="box">
+       
+    </div>
+    <button class="btn" id="btnNext">下一题</button>
+    <h2 id="judge">请选择</h2>
+    <h2 id="answer">答案：</h2>
+    <h2 id="score">分数：</h2>
+</body>
+<script src="j.js"></script>
+</html>
