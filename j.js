@@ -5,6 +5,11 @@ let answer = "";
 let finished = new Array();
 let local = 0;
 let isCurTopicFinished = false;
+const audioExcelent = new Audio("src/excelent.wav");
+const audioAmazing = new Audio("src/amazing.wav");
+const audioUnbelivable = new Audio("src/unbelivable.wav");
+let audios = [audioExcelent, audioAmazing, audioUnbelivable];
+
 class Page {
     constructor() {
         this.topic = document.getElementById("topic");
@@ -114,6 +119,8 @@ function end() {
 function addScore() {
     if (compare(topicJson["all"][topicId]["answer"], answer)) {
         score += 10;
+        let audioId=Math.floor(Math.random() * 3);
+        audios[audioId].play();
         // page.score.innerHTML = `分数:${score}`;
         page.box2.innerHTML = '';
         let a = document.createElement('div');
