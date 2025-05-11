@@ -144,7 +144,7 @@
         },
         {
             "topic": "dǎ水",
-            "content": "扌打水口",
+            "content": "扌丁水口",
             "answer": "扌丁",
             "char": "打"
         },
@@ -152,7 +152,7 @@
      
         {
             "topic": "hē水",
-            "content": "口喝水口",
+            "content": "口曷水口",
             "answer": "口曷",
             "char": "喝"
         },
@@ -172,19 +172,19 @@
        
         {
             "topic": "nào 钟",
-            "content": "门闹口舌",
+            "content": "门市口舌",
             "answer": "门市",
             "char": "闹"
         },
         {
             "topic": "pǎo 步",
-            "content": "足跑口舌",
+            "content": "足包口舌",
             "answer": "足包",
             "char": "跑"
         },
         {
             "topic": "qiū天",
-            "content": "禾秋口舌",
+            "content": "禾火口舌",
             "answer": "禾火",
             "char": "秋"
         },
@@ -197,14 +197,14 @@
         },
         {
             "topic": "tī球",
-            "content": "足踢口舌",
+            "content": "足易口舌",
             "answer": "足易",
             "char": "踢"
         },
     
         {
             "topic": "xiě字",
-            "content": "冖写字口",
+            "content": "冖与字口",
             "answer": "冖与",
             "char": "写"
         },
@@ -214,7 +214,7 @@
         {
             "topic": "zhōu 围",
             "content": "冂土口舌",
-            "answer": "冂土",
+            "answer": "冂土口",
             "char": "周"
         },
         {
