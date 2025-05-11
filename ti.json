@@ -45,13 +45,13 @@
         },
         {
             "topic": "tīng 话",
-            "content": "口丁耳目",
-            "answer": "口丁",
+            "content": "口斤耳目",
+            "answer": "口斤",
             "char": "听"
         },
         {
             "topic": "cài 地",
-            "content": "艹菜地土",
+            "content": "艹地采土",
             "answer": "艹采",
             "char": "菜"
         },
@@ -62,7 +62,7 @@
             "char": "房"
         },
         {
-            "topic": "chē轮",
+            "topic": "车lun",
             "content": "车仑人口",
             "answer": "车仑",
             "char": "轮"
@@ -92,13 +92,7 @@
             "char": "湖"
         },
         {
-            "topic": "lǐ面",
-            "content": "王里人口",
-            "answer": "王里",
-            "char": "理"
-        },
-        {
-            "topic": "máo 笔",
+            "topic": "毛bi",
             "content": "竹毛口舌",
             "answer": "竹毛",
             "char": "笔"
@@ -111,7 +105,7 @@
         },
         {
             "topic": "pào 水",
-            "content": "氵泡口舌",
+            "content": "氵包口舌",
             "answer": "氵包",
             "char": "泡"
         },
@@ -124,14 +118,14 @@
             "char": "松"
         },
         {
-            "topic": "tái 灯",
+            "topic": "tái灯",
             "content": "厶台口舌",
             "answer": "厶口",
             "char": "台"
         },
         {
             "topic": "wán 具",
-            "content": "王完口舌",
+            "content": "王口元舌",
             "answer": "王元",
             "char": "玩"
         },
@@ -164,7 +158,7 @@
         },
         {
             "topic": "jià 钱",
-            "content": "亻价口舌",
+            "content": "亻口舌介",
             "answer": "亻介",
             "char": "价"
         },
@@ -197,7 +191,7 @@
      
         {
             "topic": "sǎ水",
-            "content": "氵洒口舌",
+            "content": "氵口舌西",
             "answer": "氵西",
             "char": "洒"
         },
@@ -219,7 +213,7 @@
      
         {
             "topic": "zhōu 围",
-            "content": "冂周口舌",
+            "content": "冂土口舌",
             "answer": "冂土",
             "char": "周"
         },
