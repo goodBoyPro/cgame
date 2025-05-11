@@ -1,37 +1,245 @@
 {
     "all": [
         {
-            "topic": "liang食",
-            "content": {
-                "1": "米",
-                "2": "廴",
-                "3": "义",
-                "4": "良"
-            },
-            "answer":["米","良"],
-            "char":"粮"
+            "topic": "liàng 食",
+            "content": "米廴义良",
+            "answer": "米良",
+            "char": "粮"
         },
         {
-            "topic": "hao人",
-            "content": {
-                "1": "女",
-                "2": "小",
-                "3": "子",
-                "4": "大"
-            },
-            "answer":["女","子"],
-            "char":"好"
+            "topic": "hǎo 人",
+            "content": "女小子大",
+            "answer": "女子",
+            "char": "好"
         },
         {
-            "topic": "米li",
-            "content": {
-                "1": "天",
-                "2": "米",
-                "3": "也",
-                "4": "立"
-            },
-            "answer":["米","立"],
-            "char":"粒"
+            "topic": "米 lì",
+            "content": "天米也立",
+            "answer": "米立",
+            "char": "粒"
+        },
+        {
+            "topic": "mā妈",
+            "content": "女马口木",
+            "answer": "女马",
+            "char": "妈"
+        },
+        {
+            "topic": "xiū息",
+            "content": "亻木口火",
+            "answer": "亻木",
+            "char": "休"
+        },
+     
+        {
+            "topic": "hé 水",
+            "content": "氵可丁口",
+            "answer": "氵可",
+            "char": "河"
+        },
+        {
+            "topic": "yan石",
+            "content": "山石田土",
+            "answer": "山石",
+            "char": "岩"
+        },
+        {
+            "topic": "tīng 话",
+            "content": "口丁耳目",
+            "answer": "口丁",
+            "char": "听"
+        },
+        {
+            "topic": "cài 地",
+            "content": "艹菜地土",
+            "answer": "艹采",
+            "char": "菜"
+        },
+        {
+            "topic": "fáng 子",
+            "content": "户方土木",
+            "answer": "户方",
+            "char": "房"
+        },
+        {
+            "topic": "chē轮",
+            "content": "车仑人口",
+            "answer": "车仑",
+            "char": "轮"
+        },
+        {
+            "topic": "dēng 火",
+            "content": "火丁口手",
+            "answer": "火丁",
+            "char": "灯"
+        },
+        {
+            "topic": "风zhēng",
+            "content": "竹争手口",
+            "answer": "竹争",
+            "char": "筝"
+        },
+        {
+            "topic": "gē唱",
+            "content": "哥欠口手",
+            "answer": "哥欠",
+            "char": "歌"
+        },
+        {
+            "topic": "hú 水",
+            "content": "氵古月口舌",
+            "answer": "氵古月",
+            "char": "湖"
+        },
+        {
+            "topic": "lǐ面",
+            "content": "王里人口",
+            "answer": "王里",
+            "char": "理"
+        },
+        {
+            "topic": "máo 笔",
+            "content": "竹毛口舌",
+            "answer": "竹毛",
+            "char": "笔"
+        },
+        {
+            "topic": "nǎi 奶",
+            "content": "女乃口舌",
+            "answer": "女乃",
+            "char": "奶"
+        },
+        {
+            "topic": "pào 水",
+            "content": "氵泡口舌",
+            "answer": "氵包",
+            "char": "泡"
+        },
+       
+      
+        {
+            "topic": "sōng 树",
+            "content": "木松口舌",
+            "answer": "木公",
+            "char": "松"
+        },
+        {
+            "topic": "tái 灯",
+            "content": "厶台口舌",
+            "answer": "厶口",
+            "char": "台"
+        },
+        {
+            "topic": "wán 具",
+            "content": "王完口舌",
+            "answer": "王元",
+            "char": "玩"
+        },
+        
+       
+       
+  
+    
+     
+      
+        {
+            "topic": "chī饭",
+            "content": "口乞口舌",
+            "answer": "口乞",
+            "char": "吃"
+        },
+        {
+            "topic": "dǎ水",
+            "content": "扌打水口",
+            "answer": "扌丁",
+            "char": "打"
+        },
+     
+     
+        {
+            "topic": "hē水",
+            "content": "口喝水口",
+            "answer": "口曷",
+            "char": "喝"
+        },
+        {
+            "topic": "jià 钱",
+            "content": "亻价口舌",
+            "answer": "亻介",
+            "char": "价"
+        },
+     
+        {
+            "topic": "lā手",
+            "content": "扌拉口舌",
+            "answer": "扌立",
+            "char": "拉"
+        },
+       
+        {
+            "topic": "nào 钟",
+            "content": "门闹口舌",
+            "answer": "门市",
+            "char": "闹"
+        },
+        {
+            "topic": "pǎo 步",
+            "content": "足跑口舌",
+            "answer": "足包",
+            "char": "跑"
+        },
+        {
+            "topic": "qiū天",
+            "content": "禾秋口舌",
+            "answer": "禾火",
+            "char": "秋"
+        },
+     
+        {
+            "topic": "sǎ水",
+            "content": "氵洒口舌",
+            "answer": "氵西",
+            "char": "洒"
+        },
+        {
+            "topic": "tī球",
+            "content": "足踢口舌",
+            "answer": "足易",
+            "char": "踢"
+        },
+    
+        {
+            "topic": "xiě字",
+            "content": "冖写字口",
+            "answer": "冖与",
+            "char": "写"
+        },
+       
+       
+     
+        {
+            "topic": "zhōu 围",
+            "content": "冂周口舌",
+            "answer": "冂土",
+            "char": "周"
+        },
+        {
+            "topic": "bīng 雪",
+            "content": "冫冰口舌",
+            "answer": "冫水",
+            "char": "冰"
+        },
+      
+      
+        {
+            "topic": "fán人",
+            "content": "火凡口舌",
+            "answer": "火凡",
+            "char": "烦"
         }
+    
+     
+    
+       
     ]
 }

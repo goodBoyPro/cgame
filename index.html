@@ -57,8 +57,8 @@
         box-shadow: 18px 18px 10px rgb(0, 70, 49);  
         transition: transform 0.2s ease,background-color 0.3s ease;   
     }
-    .block:hover{
-        transform: scale(1.2) rotate(15deg);
+    .block:active{
+        transform: scale(0.8) rotate(15deg);
         background-color: brown;
         margin: auto;
     }
@@ -89,7 +89,7 @@
     }
     .btn:active{
         scale: 0.8;
-        transform: scale(1.5) rotate(5deg);
+        transform: scale(0.8) rotate(5deg);
         color: rgb(255, 255, 255);
     }
     /* .btn:hover{
@@ -107,7 +107,7 @@
     }
 </style>
 <body>
-    <h1>githubtest1</h1>
+    <h1>githubtest2</h1>
     <h1>AMY识字</h1>
     <h2 id="topic">题目：</h2>
     <div id="box">
@@ -117,10 +117,9 @@
     <button class="btn" id="btnNext" disabled>下一题</button>
     <button class="btn" id="btnReset" disabled>重新选</button>
     <button class="btn" id="btnLook" disabled>看答案</button>
-    <h2 id="judge">请选择</h2>
-    <h2 id="answer">答案：</h2>
-    <h2 id="score">分数:0</h2>
-    <input id="btnOpenFile" type="file" accept="*.json">打开文件</input>
+    <!-- <h2 id="answer">答案：</h2> -->
+    <!-- <h2 id="score">分数:0</h2> -->
+    <!-- <input id="btnOpenFile" type="file" accept="*.json">打开文件</input> -->
 </body>
 <script src="j.js"></script>
 </html>
