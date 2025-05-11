@@ -4,6 +4,7 @@ let score = 0;
 let answer = "";
 let finished = new Array();
 let local = 0;
+let isCurTopicFinished = false;
 class Page {
     constructor() {
         this.topic = document.getElementById("topic");
@@ -19,6 +20,7 @@ class Page {
                 return;
             }
             let TCA = topicJson["all"][topicId];
+            isCurTopicFinished = false;
             setTopic(TCA);
         });
         this.btnReset = document.getElementById("btnReset");
@@ -68,6 +70,7 @@ function gameBeginFromBtn(file_) {
 
 function setTopic(TCA) {
     reset();
+
     page.box2.innerHTML = '';
     page.topic.innerHTML = `题目:${TCA['topic']}`;
     page.box.innerHTML = '';
@@ -78,25 +81,34 @@ function setTopic(TCA) {
         block.className = "block";
         block.textContent = v;
         block.addEventListener("click", function (e) {
-            let block2 = document.createElement('div');
-            block2.className = "block";
-            block2.textContent = v;
-            answer = answer + v;
-            page.box2.appendChild(block2);
-            addScore();
+            if (!isCurTopicFinished) {
+                let block2 = document.createElement('div');
+                block2.className = "block";
+                block2.textContent = v;
+                answer = answer + v;
+                page.box2.appendChild(block2);
+                addScore();
+            }
+
         });
         peace.appendChild(block);
 
     });
     page.box.appendChild(peace);
 }
-function reset() { page.box2.innerHTML = ''; answer = ""; }
+function reset() {
+    if (!isCurTopicFinished) {
+        page.box2.innerHTML = '';
+        answer = "";
+    }
+
+}
 function end() {
     page.box.innerHTML = "";
     page.box2.innerText = "完成啦~~,\n正在评分~";
     page.btnNext.disabled = true;
     page.btnNext.innerHTML = "已完成";
-    setTimeout(function () { page.box2.innerText =`你的分数是：\n${score}`; }, 3000);
+    setTimeout(function () { page.box2.innerText = `你的分数是：\n${score}`; }, 3000);
 
 }
 function addScore() {
@@ -109,6 +121,7 @@ function addScore() {
         a.textContent = topicJson["all"][topicId]["char"];
 
         page.box2.appendChild(a);
+        isCurTopicFinished = true;
 
     }
 
@@ -117,5 +130,5 @@ function compare(str1, str2) {
 
     return str1 === str2;
 }
-if(!local)
-gameBegin()
+if (!local)
+    gameBegin()
